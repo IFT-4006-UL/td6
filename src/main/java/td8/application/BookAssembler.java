@@ -16,6 +16,6 @@ public class BookAssembler {
     }
 
     public List<BookDto> toDtos(List<Book> books) {
-        return books.stream().map(book -> new BookDto(book.getName().toString(), book.getAuthor().toString())).toList();
+        return books.stream().map(book -> new BookDto(book.getName().toString(), book.getAuthor().getName())).toList();
     }
 }

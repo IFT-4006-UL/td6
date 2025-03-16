@@ -28,6 +28,7 @@ public class LibraryService {
 
         Book book = bookAssembler.fromDto(bookDto);
         library.addBook(book);
+        libraryRepository.saveOrUpdate(library);
     }
 
     public List<BookDto> getAllBooks(String libraryName) {

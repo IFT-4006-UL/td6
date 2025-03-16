@@ -7,6 +7,7 @@ import td8.application.LibraryService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.core.Response;
 
+import java.util.Collections;
 import java.util.List;
 
 @Path("/libraries/{libraryName}")
@@ -31,6 +32,6 @@ public class LibraryResource {
     @Path(("/books"))
     public Response getAllBooks(@PathParam("libraryName") String libraryName) {
         List<BookDto> bookDtos = libraryService.getAllBooks(libraryName);
-        return Response.ok(bookDtos).build();
+        return Response.ok(Collections.singletonMap("books", bookDtos)).build();
     }
 }
