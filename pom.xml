@@ -31,6 +31,7 @@
         <jackson.version>2.15.2</jackson.version>
         <surefire.version>3.0.0-M7</surefire.version>
         <logback.version>1.4.5</logback.version>
+        <bytebuddy.version>1.17.8</bytebuddy.version>
 
         <maven-checkstyle-plugin.version>3.3.0</maven-checkstyle-plugin.version>
         <checkstyle.version>10.12.2</checkstyle.version>
@@ -94,6 +95,11 @@
                 <artifactId>mockito-junit-jupiter</artifactId>
                 <version>${mockito.version}</version>
                 <scope>test</scope>
+            </dependency>
+            <dependency>
+                <groupId>net.bytebuddy</groupId>
+                <artifactId>byte-buddy</artifactId>
+                <version>${bytebuddy.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.glassfish.jersey.core</groupId>
@@ -210,6 +216,12 @@
         <dependency>
             <groupId>io.rest-assured</groupId>
             <artifactId>rest-assured</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.cucumber</groupId>
+            <artifactId>cucumber-junit</artifactId>
+            <version>7.20.1</version>
+            <scope>test</scope>
         </dependency>
 
     </dependencies>
