@@ -1,4 +1,4 @@
-package td8.infra.persistence.hibernate;
+package td8.infra.persistence.library;
 
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.Metadata;

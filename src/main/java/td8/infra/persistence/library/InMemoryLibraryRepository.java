@@ -1,4 +1,4 @@
-package td8.infra.persistence.hibernate;
+package td8.infra.persistence.library;
 
 import td8.domain.Library;
 import td8.domain.LibraryName;
