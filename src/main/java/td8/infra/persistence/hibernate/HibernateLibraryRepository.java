@@ -8,8 +8,8 @@ import org.hibernate.Transaction;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class LibraryRepositoryHibernate implements LibraryRepository {
-    private static final Logger logger = LoggerFactory.getLogger(LibraryRepositoryHibernate.class);
+public class HibernateLibraryRepository implements LibraryRepository {
+    private static final Logger logger = LoggerFactory.getLogger(HibernateLibraryRepository.class);
     @Override
     public Library findByName(LibraryName name) {
         try(Session session = HibernateUtil.getSessionFactory().openSession()) {

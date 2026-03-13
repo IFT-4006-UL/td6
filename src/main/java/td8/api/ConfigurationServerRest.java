@@ -3,15 +3,15 @@ package td8.api;
 import td8.application.BookAssembler;
 import td8.application.LibraryService;
 import td8.domain.LibraryRepository;
-import td8.infra.persistence.hibernate.LibraryRepositoryHibernate;
+import td8.infra.persistence.hibernate.HibernateLibraryRepository;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
-import td8.infra.persistence.hibernate.LibraryRepositoryInMemory;
+import td8.infra.persistence.hibernate.InMemoryLibraryRepository;
 
 public class ConfigurationServerRest extends AbstractBinder {
-    private static LibraryRepository LibraryRepositoryInstance = new LibraryRepositoryHibernate();
+    private static LibraryRepository LibraryRepositoryInstance = new HibernateLibraryRepository();
 
     public static void useInMemoryRepositories() {
-        LibraryRepositoryInstance = new LibraryRepositoryInMemory();
+        LibraryRepositoryInstance = new InMemoryLibraryRepository();
     }
 
     @Override

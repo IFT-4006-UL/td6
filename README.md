@@ -1,8 +1,8 @@
 # TD8
 
-## Tests composants avec une base de données: LibraryRepositoryHibernate
+## Tests composants avec une base de données: HibernateLibraryRepository
 
-Implémenter les tests composants pour LibraryRepositoryHibernate avec la base de données H2.
+Implémenter les tests composants pour HibernateLibraryRepository avec la base de données H2.
 
 Pourquoi ce sont des tests composants et non des tests unitaires?
 

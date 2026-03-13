@@ -7,7 +7,7 @@ import td8.domain.LibraryRepository;
 import java.util.HashMap;
 import java.util.Map;
 
-public class LibraryRepositoryInMemory implements LibraryRepository {
+public class InMemoryLibraryRepository implements LibraryRepository {
 
     private static final Map<LibraryName, Library> libraries = new HashMap<>();
 
