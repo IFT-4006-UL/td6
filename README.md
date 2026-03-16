@@ -69,14 +69,14 @@ pour la fonctionnalité ci-dessous:
 * Les définitions d'étapes (Step Definitions) ne doivent pas avoir de duplications de code excessives et doivent être réutilisables.
 
 ### Comment mettre Cucumber en place
-1. Créer le `RunnerTest` pointant vers le dossier des StepDefinitions (`glue`)
+1. Créer le `RunnerTest` pointant vers le dossier des StepDefinitions (`stepDefinitions`)
   ``` java
    @RunWith(Cucumber.class)
-   @CucumberOptions(glue = {"td8.multiComponents.glue"})
+   @CucumberOptions(glue = {"td8.multiComponents.stepDefinitions"})
    public class TestRunner {}
   ```
 2. Implémenter vos scénarios dans un fichier _.feature_ dans `test/resources/td8/multiComponents/features` ([Comment écrire un scénario](https://cucumber.io/docs/guides/10-minute-tutorial/#write-a-scenario))
-3. Implémenter les StepDefinition dans le dossier spécifié au TestRunner (`glue`). ([Comment implémenter un StepDefinition](https://cucumber.io/docs/cucumber/step-definitions))
+3. Implémenter les StepDefinition dans le dossier spécifié au TestRunner (`stepDefinitions`). ([Comment implémenter un StepDefinition](https://cucumber.io/docs/cucumber/step-definitions))
    - Le plus simple est d'utiliser [REST Assured](https://rest-assured.io/) pour appeler l'API et valider les réponses.
 4. Ajouter `@Before` et `@After` dans le StepDefinition pour démarrer et fermer le serveur pour les tests.
    - Pour utiliser la base de données en mémoire, utilisez la méthode `ConfigurationServerRest.useInMemoryRepositories()` avant de démarrer le serveur.
