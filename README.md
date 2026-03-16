@@ -1,12 +1,12 @@
 # TD8
 
-## Tests composants avec une base de données: HibernateLibraryRepository
+## Tests composants avec une base de données: `HibernateLibraryRepository`
 
-Implémenter les tests composants pour HibernateLibraryRepository avec la base de données H2.
+Implémenter les tests composants pour `HibernateLibraryRepository` avec la base de données H2.
 
 Pourquoi ce sont des tests composants et non des tests unitaires?
 
-## Tests composants avec un API: LibraryResource
+## Tests composants avec un API: `LibraryResource`
 
 Utilisez `JerseyTest` pour implémenter les tests permettant de valider la réponse API `POST /books` de LibraryResource.
 
