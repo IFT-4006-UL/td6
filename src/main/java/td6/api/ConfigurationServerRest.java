@@ -1,11 +1,11 @@
-package td8.api;
+package td6.api;
 
-import td8.application.BookAssembler;
-import td8.application.LibraryService;
-import td8.domain.LibraryRepository;
-import td8.infra.persistence.library.HibernateLibraryRepository;
+import td6.application.BookAssembler;
+import td6.application.LibraryService;
+import td6.domain.LibraryRepository;
+import td6.infra.persistence.library.HibernateLibraryRepository;
 import org.glassfish.hk2.utilities.binding.AbstractBinder;
-import td8.infra.persistence.library.InMemoryLibraryRepository;
+import td6.infra.persistence.library.InMemoryLibraryRepository;
 
 public class ConfigurationServerRest extends AbstractBinder {
     private static LibraryRepository LibraryRepositoryInstance = new HibernateLibraryRepository();

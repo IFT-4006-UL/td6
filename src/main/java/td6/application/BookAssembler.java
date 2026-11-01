@@ -1,8 +1,8 @@
-package td8.application;
+package td6.application;
 
-import td8.domain.Author;
-import td8.domain.Book;
-import td8.domain.BookName;
+import td6.domain.Author;
+import td6.domain.Book;
+import td6.domain.BookName;
 
 import java.util.List;
 

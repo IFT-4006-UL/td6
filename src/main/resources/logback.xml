@@ -19,7 +19,7 @@
         <appender-ref ref="CONSOLE"/>
     </logger>
 
-    <logger name="uspace.td8.api.filters.RequestLoggerFilter" level="debug" additivity="false">
+    <logger name="uspace.td6.api.filters.RequestLoggerFilter" level="debug" additivity="false">
         <appender-ref ref="CONSOLE_REQUESTS"/>
     </logger>
 

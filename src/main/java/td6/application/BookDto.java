@@ -1,4 +1,4 @@
-package td8.application;
+package td6.application;
 
 public class BookDto {
     public String title;

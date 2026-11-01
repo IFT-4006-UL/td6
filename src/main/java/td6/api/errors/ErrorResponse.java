@@ -1,4 +1,4 @@
-package td8.api.errors;
+package td6.api.errors;
 
 public class ErrorResponse {
     public String error;

@@ -1,6 +1,6 @@
-package td8.domain;
+package td6.domain;
 
-import td8.domain.exceptions.BookAlreadyPresentException;
+import td6.domain.exceptions.BookAlreadyPresentException;
 import jakarta.persistence.*;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;

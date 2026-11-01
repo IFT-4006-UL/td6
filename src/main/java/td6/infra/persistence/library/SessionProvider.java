@@ -1,4 +1,4 @@
-package td8.infra.persistence.library;
+package td6.infra.persistence.library;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;

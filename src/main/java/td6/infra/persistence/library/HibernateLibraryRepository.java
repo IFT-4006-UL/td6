@@ -1,8 +1,8 @@
-package td8.infra.persistence.library;
+package td6.infra.persistence.library;
 
-import td8.domain.Library;
-import td8.domain.LibraryName;
-import td8.domain.LibraryRepository;
+import td6.domain.Library;
+import td6.domain.LibraryName;
+import td6.domain.LibraryRepository;
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 import org.slf4j.Logger;

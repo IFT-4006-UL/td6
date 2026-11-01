@@ -1,4 +1,4 @@
-package td8.api;
+package td6.api;
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

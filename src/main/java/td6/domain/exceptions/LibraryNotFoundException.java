@@ -1,4 +1,4 @@
-package td8.domain.exceptions;
+package td6.domain.exceptions;
 
 public class LibraryNotFoundException extends RuntimeException {
 

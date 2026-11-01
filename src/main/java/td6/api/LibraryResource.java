@@ -1,9 +1,9 @@
-package td8.api;
+package td6.api;
 
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
-import td8.application.BookDto;
-import td8.application.LibraryService;
+import td6.application.BookDto;
+import td6.application.LibraryService;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.core.Response;
 

@@ -1,11 +1,11 @@
-package td8.application;
+package td6.application;
 
-import td8.domain.Book;
-import td8.domain.Library;
-import td8.domain.LibraryName;
-import td8.domain.exceptions.LibraryNotFoundException;
+import td6.domain.Book;
+import td6.domain.Library;
+import td6.domain.LibraryName;
+import td6.domain.exceptions.LibraryNotFoundException;
 import jakarta.inject.Inject;
-import td8.domain.LibraryRepository;
+import td6.domain.LibraryRepository;
 
 import java.util.List;
 

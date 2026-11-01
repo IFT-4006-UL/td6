@@ -1,4 +1,4 @@
-package td8.domain;
+package td6.domain;
 
 import jakarta.persistence.*;
 

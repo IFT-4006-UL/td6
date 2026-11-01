@@ -1,7 +1,7 @@
-package td8.api.errors.mappers;
+package td6.api.errors.mappers;
 
-import td8.api.errors.ErrorResponse;
-import td8.domain.exceptions.LibraryNotFoundException;
+import td6.api.errors.ErrorResponse;
+import td6.domain.exceptions.LibraryNotFoundException;
 import jakarta.ws.rs.core.Response;
 import jakarta.ws.rs.ext.ExceptionMapper;
 import jakarta.ws.rs.ext.Provider;
