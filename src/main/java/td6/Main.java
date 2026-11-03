@@ -1,4 +1,4 @@
-package td8;
+package td6;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
@@ -8,10 +8,10 @@ import org.glassfish.jersey.server.ResourceConfig;
 import org.glassfish.jersey.servlet.ServletContainer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import td8.api.ConfigurationServerRest;
-import td8.domain.Library;
-import td8.domain.LibraryName;
-import td8.domain.LibraryRepository;
+import td6.api.ConfigurationServerRest;
+import td6.domain.Library;
+import td6.domain.LibraryName;
+import td6.domain.LibraryRepository;
 
 import java.util.HashMap;
 
