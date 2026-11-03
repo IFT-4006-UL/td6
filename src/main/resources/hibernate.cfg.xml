@@ -15,8 +15,8 @@
         <property name="hibernate.hbm2ddl.auto">create</property>
 
         <!-- All entities to map -->
-        <mapping class="td8.domain.Library" />
-        <mapping class="td8.domain.Book" />
-        <mapping class="td8.domain.Author" />
+        <mapping class="td6.domain.Library" />
+        <mapping class="td6.domain.Book" />
+        <mapping class="td6.domain.Author" />
     </session-factory>
 </hibernate-configuration>
