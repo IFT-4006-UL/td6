@@ -42,7 +42,7 @@ public class Main implements Runnable {
         server = new Server(PORT);
         ServletContextHandler contextHandler = new ServletContextHandler(server, "/");
         ResourceConfig packageConfig = new ResourceConfig()
-                .packages("td8")
+                .packages("td6")
                 .register(JacksonFeature.withoutExceptionMappers())
                 .register(ConfigurationServerRest.class);
         ServletContainer container = new ServletContainer(packageConfig);
